@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+
+   .beach {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(beach.png);
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    background-size: cover;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 20px; /* Add padding to the sides of the navbar */
+}
+
+nav h1{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ul li {
+    list-style: none;
+    color: white;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.left .hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.left .hero .title{
+    font-size: 48px;
+    color: white;
+
+}
+
+.left .hero .tagline{
+    font-size: 24px;
+    color: white;
+}
+
+.right{
+    flex: 1;
+}
+
+/* sec 2 */
+
+
+
+/* Center the contents of .content-wrapper */
+.content-wrapper {
+    display: flex;
+    gap: 2em;
+    margin: 30px;
+    
+}
+
+
+
+
+/* Add this CSS code to resize the images */
+.amenities {
+    width: 300px;
+    height: 200px;
+   
+}
+
+h2{
+    margin: 5px 0;
+}   
+
+.footer {
+    background-image: url(pineapp.png);
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    
+    
+}
+
+.footer-container {
+    
+    padding: 20px; /* Add padding to the container */
+    text-align: center; /* Right-align text within the container */
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-info {
+    margin-bottom: 10px; /* Add margin between each contact info */
+    color: whit;
+}
+
+.stay{
+    margin-bottom: 20px;
+    font-size: 96px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Existing CSS styles ... */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: yellow; /* Change the color to yellow on hover */
+}
+
+
+/* Existing CSS styles ... */
+
+/* Media query for screens with a maximum width of 768px (typical for mobile phones) */
+@media (max-width: 768px) {
+    .nav-wrapper {
+        text-align: center; /* Center-align the navigation for mobile */
+    }
+    
+    nav {
+        flex-direction: column; /* Stack navigation items vertically for mobile */
+    }
+    
+    nav ul {
+        margin-top: 10px; /* Add some space between navigation items for mobile */
+    }
+    
+    .left .hero .title {
+        font-size: 36px; /* Decrease font size for mobile */
+    }
+    
+    .left .hero .tagline {
+        font-size: 18px; /* Decrease font size for mobile */
+    }
+    
+    .content-wrapper {
+        flex-direction: column; /* Stack content items vertically for mobile */
+    }
+    
+    .amenities {
+        width: 100%; /* Make images take the full width on mobile */
+        height: auto; /* Maintain aspect ratio for images */
+    }
+    
+    .footer .footer-container {
+        text-align: center; /* Center-align the footer content for mobile */
+    }
+}
+
