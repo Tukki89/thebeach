@@ -7,7 +7,7 @@
 
 
    .beach {
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(beach.png);
+    background-image: url(beach.png);
     height: 100vh; /* Set the height to 100% of the viewport height */
     background-size: cover;
     overflow: hidden;
